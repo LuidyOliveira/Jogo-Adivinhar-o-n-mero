@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Acerte o Número</title>
+    </head>
+    <body>
+        <h1>Acerte o Número</h1>
+        <p>
+            Nós vamos selecionar um número entre 1 e 100. Veja se você consegue adivinhar em 10 ou
+            menos tentativas. Nós vamos te dizer se o número digitado foi maior ou menor do que
+            selecionamos.
+        </p>
+        <div class="form">
+            <label for="campoTent">Digite um número: </label>
+            <input type="text" id="campoTent" class="campoTent" />
+            <input type="submit" value="COMEÇAR" class="env" />
+        </div>
+
+        <div class="resultParas">
+            <p class="chances"></p>
+            <p class="ultimaTentativa"></p>
+            <p class="menOumai"></p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
